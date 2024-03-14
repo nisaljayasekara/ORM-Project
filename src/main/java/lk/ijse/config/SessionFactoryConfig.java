@@ -20,6 +20,8 @@ public class SessionFactoryConfig {
         Metadata metadata = new MetadataSources(serviceRegistry)
                 .addAnnotatedClass(Admin.class)
                 .addAnnotatedClass(User.class)
+                .addAnnotatedClass(Books.class)
+                .addAnnotatedClass(Branch.class)
                 .getMetadataBuilder()
                 .build();
         this.sessionFactory = metadata.buildSessionFactory();

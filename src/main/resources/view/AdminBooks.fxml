@@ -15,7 +15,7 @@
             <Font name="System Bold Italic" size="36.0" />
          </font>
       </Text>
-      <TableView layoutX="307.0" layoutY="78.0" opacity="0.59" prefHeight="427.0" prefWidth="486.0" style="-fx-background-color: lightblue;">
+      <TableView layoutX="304.0" layoutY="78.0" opacity="0.59" prefHeight="427.0" prefWidth="486.0" style="-fx-background-color: lightblue;">
         <columns>
           <TableColumn prefWidth="75.0" text="Book Id" />
           <TableColumn prefWidth="75.0" text="Title" />

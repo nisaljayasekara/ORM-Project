@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="497.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.admin.AdminSignInPage">
+<AnchorPane prefHeight="497.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdminSignInController">
    <children>
       <TextField layoutX="117.0" layoutY="168.0" prefHeight="26.0" prefWidth="219.0" />
       <TextField layoutX="116.0" layoutY="247.0" prefHeight="26.0" prefWidth="219.0" />

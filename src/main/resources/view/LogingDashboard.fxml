@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="loginDashboard" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LogingDashboardController">
+   <children>
+      <Button layoutX="405.0" layoutY="152.0" mnemonicParsing="false" onAction="#btnAdminOnAction" prefHeight="26.0" prefWidth="92.0" text="Admin" />
+      <Button layoutX="405.0" layoutY="213.0" mnemonicParsing="false" onAction="#btnUserOnAction" prefHeight="26.0" prefWidth="92.0" text="User" />
+   </children>
+</AnchorPane>
