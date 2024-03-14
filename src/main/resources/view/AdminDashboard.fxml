@@ -3,14 +3,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="542.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.admin.AdminDashboard">
+<AnchorPane fx:id="root" prefHeight="542.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AdminDashboardController">
    <children>
-      <Button layoutX="108.0" layoutY="118.0" mnemonicParsing="false" text="Dashboard" />
-      <Button layoutX="108.0" layoutY="171.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Users" />
-      <Button layoutX="108.0" layoutY="222.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Books" />
-      <Button layoutX="108.0" layoutY="272.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Records" />
-      <Button layoutX="108.0" layoutY="323.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Branches" />
-      <Button layoutX="108.0" layoutY="375.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Log Out" />
+      <Button layoutX="108.0" layoutY="118.0" mnemonicParsing="false" onAction="#btnDashboardOnAction" text="Dashboard" />
+      <Button layoutX="108.0" layoutY="171.0" mnemonicParsing="false" onAction="#btnUsersOnAction" prefHeight="26.0" prefWidth="74.0" text="Users" />
+      <Button layoutX="108.0" layoutY="222.0" mnemonicParsing="false" onAction="#btnBooksOnAction" prefHeight="26.0" prefWidth="74.0" text="Books" />
+      <Button layoutX="108.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnRecordsOnAction" prefHeight="26.0" prefWidth="74.0" text="Records" />
+      <Button layoutX="108.0" layoutY="323.0" mnemonicParsing="false" onAction="#btnBranchesOnAction" prefHeight="26.0" prefWidth="74.0" text="Branches" />
+      <Button layoutX="108.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnLogOutOnAction" prefHeight="26.0" prefWidth="74.0" text="Log Out" />
    </children>
 </AnchorPane>
